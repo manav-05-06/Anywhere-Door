@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom dark variant for better support */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* SweetAlert2 dark mode styles */
+.dark .swal2-container .swal2-popup {
+  background-color: #1f1f1f;
+  color: #e4e4e4;
+  color-scheme: dark;
+  border: 1px solid #3a3a3a;
+}
+
+.dark .swal2-container .swal2-validation-message {
+  background-color: #2a2a2a;
+  color: #dcdcdc;
+}
+
+/* Hide reCAPTCHA badge */
+.grecaptcha-badge {
+  display: none !important;
+}
