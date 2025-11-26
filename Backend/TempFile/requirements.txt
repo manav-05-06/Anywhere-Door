@@ -1,7 +1,6 @@
 flask
 flask-cors
 python-dotenv
-google-genai
-PyJWT
-requests
+redis
 gunicorn
+requests
