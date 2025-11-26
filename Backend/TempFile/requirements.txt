@@ -1,6 +1,7 @@
-Flask
+flask
 flask-cors
-redis
 python-dotenv
-pyjwt
+google-genai
+PyJWT
 requests
+gunicorn

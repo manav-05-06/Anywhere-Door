@@ -1,6 +1,7 @@
-google-genai
-python-dotenv
-flask-cors
 flask
-pyjwt
+flask-cors
+python-dotenv
+google-genai
+PyJWT
 requests
+gunicorn
